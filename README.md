@@ -10,3 +10,6 @@ Notice: This is hacky, untested, and seems to work perfectly if you know what yo
 - In settings.py, add 'crm' to INSTALLED_APPS
 - python manage.py makemigrations
 - python manage.py migrate crm --fake
+
+# Usage in Template/View
+Used as any other django model: {{ leads.email }} {{ leads.firstname }} {{ leads.lastname }}
