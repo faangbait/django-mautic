@@ -8,6 +8,7 @@ Notice: This is hacky, untested, and seems to work perfectly if you know what yo
 
 # Installation Instructions
 - In settings.py, add 'crm' to INSTALLED_APPS
+- Debug uploaded views.py; I purposefully broke it so inexperienced noobs won't wreck their site
 - python manage.py makemigrations
 - python manage.py migrate crm --fake
 
