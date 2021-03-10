@@ -1,6 +1,6 @@
 An integration to bring Mautic marketing automation into Django models
 
-**Notice: This is hacky but seems to work fine. If you use this without regular backups on critical infrastructure, on your own head be it.**
+**Notice: This is hacky. Though it hasn't ever broken before, it could break with any update and actually FUBAR your databases. If you use this without regular backups, on your own head be it.**
 
 Confirmed support for Mautic 3 / Django 3.
 
