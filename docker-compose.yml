@@ -1,0 +1,15 @@
+services:
+  mautic:
+    container_name: mautic
+    image: mautic/mautic:v3
+    volumes:
+      - ~/.mautic:/var/www/html
+    environment:
+      - MAUTIC_DB_HOST=host
+      - MAUTIC_DB_USER=user
+      - MAUTIC_DB_PASSWORD=pass
+      - MAUTIC_DB_NAME=name
+      - MAUTIC_DB_TABLE_PREFIX=crm_
+    restart: always
+    ports:
+      - "12345:80"
