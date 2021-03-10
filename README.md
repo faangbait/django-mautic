@@ -1,6 +1,8 @@
 An integration to bring Mautic marketing automation into Django models
 
-Notice: This is hacky, untested, and seems to work perfectly if you know what you're doing and set your databases up like a pro. But, seriously, back everything up if you dare try this.
+Notice: This is hacky but seems to work fine. If you use this without regular backups on critical infrastructure, you're remarkably daft.
+
+Confirmed support for Mautic 3 / Django 3.
 
 # Mautic Initial Installation Changes
 - Prefix database tables with with crm_
