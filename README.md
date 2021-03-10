@@ -1,6 +1,6 @@
 An integration to bring Mautic marketing automation into Django models
 
-Notice: This is hacky but seems to work fine. If you use this without regular backups on critical infrastructure, you're remarkably daft.
+**Notice: This is hacky but seems to work fine. If you use this without regular backups on critical infrastructure, you're remarkably daft.**
 
 Confirmed support for Mautic 3 / Django 3.
 
@@ -10,7 +10,7 @@ Confirmed support for Mautic 3 / Django 3.
 
 # Installation Instructions
 - In settings.py, add 'crm' to INSTALLED_APPS
-- Debug uploaded views.py; I purposefully broke it so inexperienced noobs won't wreck their site
+- I broke views.py so people who don't read the readme will come back and read the notice at the top. Just, like, comment it out or something.
 - python manage.py makemigrations
 - python manage.py migrate crm --fake
 
