@@ -35,7 +35,6 @@ class leads(models.Model):
 	website=models.TextField(blank=True,null=True)
 	facebook=models.CharField(max_length=255,blank=True,null=True)
 	foursquare=models.CharField(max_length=255,blank=True,null=True)
-	googleplus=models.CharField(max_length=255,blank=True,null=True)
 	instagram=models.CharField(max_length=255,blank=True,null=True)
 	linkedin=models.CharField(max_length=255,blank=True,null=True)
 	skype=models.CharField(max_length=255,blank=True,null=True)
